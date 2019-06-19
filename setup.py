@@ -5,7 +5,7 @@ from setuptools import setup, Extension
 
 setup(
     name            = "ginzyenc",
-    version         = "1.0",
+    version         = "1.2.1",
     author          = "dermatty",
     author_email    = "stephan@untergrabner.at",
     url             = "https://github.com/dermatty/GINZYENC",
