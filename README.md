@@ -26,7 +26,6 @@ INSTALL:
 
 
 	a. Local Install
-
 	- clone this repo & unpack
 	- cd to directory of repo
 	- activate virtual environment (e.g. workon venv1)
@@ -34,14 +33,12 @@ INSTALL:
 
 
 	b. Install directly from github with pip
-	
 	- pip install git+https://github.com/dermatty/GINZYENC.git#egg=ginzyenc
 
 	
 	c. from PyPi
-	
 	- pip install ginzyenc
 
-
-	
-		-
+    d. Gentoo ebuild
+    - add dermatty_overlay with layman (see overlay github site for instructions)
+    - emerge -a ginzyenc
