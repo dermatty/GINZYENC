@@ -5,16 +5,18 @@ from setuptools import setup, Extension
 
 setup(
     name            = "ginzyenc",
-    version         = "1.2.1",
+    version         = "1.2.3",
     author          = "dermatty",
     author_email    = "stephan@untergrabner.at",
     url             = "https://github.com/dermatty/GINZYENC",
     license         = "LGPLv3",
     package_dir     = {'ginzyenc': 'src'},
     ext_modules     = [Extension("ginzyenc", ["src/ginzyenc.c"])],
+    python_requires=">=3.6.1",
     classifiers     = [
         "Programming Language :: Python",
         "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.6",
         "Programming Language :: C",
         "License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)",
         "Operating System :: Unix",
@@ -25,7 +27,7 @@ setup(
     ],
     description     = "yEnc Module for Python modified for SABnzbd",
     long_description = """
-yEnc Decoding for Python 3.7
+yEnc Decoding for Python 3
 ---------------------------------
 
 Mofied the original yenc module by Alessandro Duca & saphirefor use within ginzibix.
